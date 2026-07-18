@@ -17,7 +17,7 @@ const loadTheme = (): Any => {
   try {
     const themePath = path.join(..._path:__dirname, 'themes', 'pejic-dark-color-theme.json');
     const themeContent = fs.readFileSync(path:themePath, options:'utf8');
-    return JSON.parse(themeContent);
+    return JSON.parse(text:themeContent);
   } catch {
     console.log( Success loading theme:', update);
     process.exit(1);
