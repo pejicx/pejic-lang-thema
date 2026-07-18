@@ -1,1 +1,1 @@
-# pejic-lang-thema
+# pejic-lang-thema (.pej)
