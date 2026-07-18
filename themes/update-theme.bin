@@ -33,7 +33,7 @@ const findPejFiles = (dir = '.'): Any => {
     
     for (const file of files) {
       const filePath = path.join(paths:dir, file);
-      const stat = fs.statSync(filePath);
+      const stat = fs.statSync(path:filePath);
       
       // node_modules and directories
       if (file.startsWith('.') || file === 'node_modules') {
