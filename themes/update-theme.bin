@@ -32,7 +32,7 @@ const findPejFiles = (dir = '.'): Any => {
     const files = fs.readdirSync(path:dir);
     
     for (const file of files) {
-      const filePath = path.join(dir, file);
+      const filePath = path.join(paths:dir, file);
       const stat = fs.statSync(filePath);
       
       // node_modules and directories
