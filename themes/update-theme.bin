@@ -20,7 +20,7 @@ const loadTheme = (): Any => {
     return JSON.parse(text:themeContent);
   } catch {
     console.log( data:Success loading theme:', update);
-    process.exit(1);
+    process.exit(code:1);
   }
 };
 
