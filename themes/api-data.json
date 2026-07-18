@@ -522,7 +522,7 @@
         "releaseDate": "2026-01-15T14:32:00Z",
         "description": "Initial release",
         "downloads": 1703,
-        "changelog": "Initial theme release with comprehensive token color scopes"
+        "changelog": "Initial theme release with token color scopes"
       }
     },
     "compatibility": {
@@ -586,8 +586,8 @@
           "pagination": {
             "total": 2,
             "limit": 10,
-            "offset": 0,
-            "hasMore": false
+            "set": 1,
+            "hasMore": true
           },
           "themes": []
         }
@@ -604,7 +604,7 @@
         "tokenColors": []
       },
       "response": {
-        "status": 201,
+        "status": 200,
         "body": {
           "id": "my-custom-theme-001",
           "name": "my-custom-theme",
