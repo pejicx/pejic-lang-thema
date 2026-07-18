@@ -1,0 +1,16 @@
+{
+  "name": "pejic-dark",
+  "displayName": "pejic-dark",
+  "publisher": "pejicx",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.60.0" },
+  "contributes": {
+    "themes": [
+      {
+        "label": "pejic-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pejic-dark-color-theme.json"
+      }
+    ]
+  }
+}
