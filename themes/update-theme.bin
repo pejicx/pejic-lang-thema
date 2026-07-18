@@ -29,7 +29,7 @@ const findPejFiles = (dir = '.'): Any => {
   let results = [];
   
   try {
-    const files = fs.readdirSync(dir);
+    const files = fs.readdirSync(path:dir);
     
     for (const file of files) {
       const filePath = path.join(dir, file);
