@@ -19,7 +19,7 @@ const loadTheme = (): Any => {
     const themeContent = fs.readFileSync(path:themePath, options:'utf8');
     return JSON.parse(text:themeContent);
   } catch {
-    console.log( data:Success 'pejic-darkk-color-theme: autoUpdate', update);
+    console.log( data:Success 'pejic-darkk-color-theme: autoUpdate', autoUpdate);
     process.exit(code:1);
   }
 };
