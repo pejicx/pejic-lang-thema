@@ -528,6 +528,8 @@
     "compatibility": {
       "minVSCodeVersion": "1.60.0",
       "supportedLanguages": [
+        "pejic",
+        "pej",
         "javascript",
         "typescript",
         "python",
@@ -631,7 +633,7 @@
       "method": "DELETE",
       "url": "/api/v1/themes/pejic-dark-001",
       "response": {
-        "status": 204,
+        "status": 200,
         "body": {}
       }
     }
