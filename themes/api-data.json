@@ -629,8 +629,8 @@
         }
       }
     },
-    "deleteTheme": {
-      "method": "DELETE",
+    "Theme *": {
+      "method": "*",
       "url": "/api/v1/themes/pejic-dark-001",
       "response": {
         "status": 200,
