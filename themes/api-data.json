@@ -1,0 +1,639 @@
+{
+  "themes": [
+    {
+      "id": "pejic-dark-001",
+      "name": "pejic-dark",
+      "type": "dark",
+      "version": "0.0.1",
+      "publisher": "pejicx",
+      "description": "A sophisticated dark theme for VS Code with carefully chosen colors optimized for extended coding sessions",
+      "repository": "https://github.com/pejicx/pejic-lang-thema",
+      "homepage": "https://github.com/pejicx/pejic-lang-thema#readme",
+      "icon": "https://github.com/pejicx/pejic-lang-thema/raw/main/icon.png",
+      "downloads": 1247,
+      "rating": 4.8,
+      "installCount": 892,
+      "lastUpdated": "2026-01-15T14:32:00Z",
+      "colors": {
+        "editor.background": "#0f1115",
+        "editor.foreground": "#dcdfe4",
+        "editorCursor.foreground": "#ffcc00",
+        "editorLineNumber.foreground": "#4b4f54",
+        "editor.selectionBackground": "#2a3140",
+        "editor.findMatchBackground": "#2a3140",
+        "editor.findMatchHighlightBackground": "#3a414a",
+        "editor.hoverHighlightBackground": "#2a3140",
+        "editor.lineHighlightBackground": "#1a1f25",
+        "editor.rangeHighlightBackground": "#2a3140",
+        "editor.selectionForeground": "#ffffff",
+        "editorBracketMatch.border": "#ffcc00",
+        "editorBracketMatch.background": "#2a3140",
+        "editorWhitespace.foreground": "#3b3f45",
+        "editorIndentGuide.background": "#2a2f35",
+        "editorIndentGuide.activeBackground": "#3a4045",
+        "editorError.foreground": "#ff5555",
+        "editorWarning.foreground": "#ffd580",
+        "editorInfo.foreground": "#56b6c2",
+        "editorHint.foreground": "#98c379",
+        "editorCodeLens.foreground": "#5c6370",
+        "editorLightBulb.foreground": "#ffd580",
+        "activityBar.background": "#0f1115",
+        "activityBar.foreground": "#dcdfe4",
+        "activityBar.inactiveForeground": "#5c6370",
+        "activityBarBadge.background": "#e06c75",
+        "sideBar.background": "#15191f",
+        "sideBar.foreground": "#dcdfe4",
+        "sideBarTitle.foreground": "#dcdfe4",
+        "sideBarSectionHeader.background": "#1a1f25",
+        "explorer.normalFileIcon.foreground": "#9cdcfe",
+        "explorer.folderIcon.foreground": "#56b6c2",
+        "tab.activeBackground": "#0f1115",
+        "tab.inactiveBackground": "#1a1f25",
+        "tab.activeForeground": "#dcdfe4",
+        "tab.inactiveForeground": "#8a8f96",
+        "tab.border": "#2a2f35",
+        "statusBar.background": "#0f1115",
+        "statusBar.foreground": "#dcdfe4",
+        "statusBar.debuggingBackground": "#e06c75",
+        "statusBar.noFolderBackground": "#0f1115",
+        "titleBar.activeBackground": "#0f1115",
+        "titleBar.activeForeground": "#dcdfe4",
+        "commandPalette.background": "#15191f",
+        "commandPalette.foreground": "#dcdfe4",
+        "input.background": "#1a1f25",
+        "input.foreground": "#dcdfe4",
+        "input.border": "#2a2f35",
+        "input.placeholderForeground": "#5c6370",
+        "inputOption.activeBackground": "#e06c75",
+        "dropdown.background": "#1a1f25",
+        "dropdown.foreground": "#dcdfe4",
+        "dropdown.border": "#2a2f35",
+        "button.background": "#e06c75",
+        "button.foreground": "#ffffff",
+        "button.hoverBackground": "#d05c65",
+        "badge.background": "#e06c75",
+        "badge.foreground": "#ffffff",
+        "scrollbar.shadow": "#00000050",
+        "scrollbarSlider.background": "#4b4f5480",
+        "scrollbarSlider.hoverBackground": "#5c6370",
+        "scrollbarSlider.activeBackground": "#7c8390",
+        "selection.background": "#2a3140",
+        "widget.shadow": "#00000080",
+        "walkThrough.embeddedEditorBackground": "#1a1f25",
+        "debugToolBar.background": "#15191f",
+        "debugToolBar.border": "#2a2f35",
+        "notificationCenter.border": "#2a2f35",
+        "notifications.background": "#15191f",
+        "notifications.foreground": "#dcdfe4",
+        "notificationLink.foreground": "#61afef",
+        "notificationsErrorIcon.foreground": "#ff5555",
+        "notificationsWarningIcon.foreground": "#ffd580",
+        "notificationsInfoIcon.foreground": "#56b6c2"
+      },
+      "tokenColors": [
+        {
+          "name": "Text",
+          "scope": "text",
+          "settings": {
+            "foreground": "#dcdfe4"
+          }
+        },
+        {
+          "name": "Whitespace",
+          "scope": "whitespace",
+          "settings": {
+            "foreground": "#3b3f45"
+          }
+        },
+        {
+          "name": "Keywords",
+          "scope": [
+            "keyword",
+            "keyword.control",
+            "keyword.declaration",
+            "keyword.definition",
+            "keyword.operator",
+            "keyword.modifier",
+            "keyword.visibility",
+            "keyword.async",
+            "keyword.await",
+            "keyword.import",
+            "keyword.export",
+            "keyword.return",
+            "keyword.yield",
+            "keyword.break",
+            "keyword.continue",
+            "keyword.match",
+            "keyword.case",
+            "keyword.default",
+            "keyword.try",
+            "keyword.catch",
+            "keyword.finally",
+            "keyword.throw",
+            "keyword.raise"
+          ],
+          "settings": {
+            "foreground": "#e06c75"
+          }
+        },
+        {
+          "name": "Define",
+          "scope": "define",
+          "settings": {
+            "foreground": "#e5c07b"
+          }
+        },
+        {
+          "name": "Classes & Types",
+          "scope": [
+            "class",
+            "interface",
+            "trait",
+            "enum",
+            "struct",
+            "record",
+            "object",
+            "singleton"
+          ],
+          "settings": {
+            "foreground": "#98c379"
+          }
+        },
+        {
+          "name": "Modules & Namespaces",
+          "scope": [
+            "namespace",
+            "module",
+            "package",
+            "library"
+          ],
+          "settings": {
+            "foreground": "#56b6c2"
+          }
+        },
+        {
+          "name": "Functions & Methods",
+          "scope": [
+            "function",
+            "method",
+            "constructor",
+            "destructor",
+            "lambda",
+            "closure",
+            "callback",
+            "generator",
+            "coroutine"
+          ],
+          "settings": {
+            "foreground": "#61afef"
+          }
+        },
+        {
+          "name": "Parameters & Arguments",
+          "scope": [
+            "parameter",
+            "argument"
+          ],
+          "settings": {
+            "foreground": "#c678dd"
+          }
+        },
+        {
+          "name": "Variables",
+          "scope": [
+            "variable",
+            "variable.local"
+          ],
+          "settings": {
+            "foreground": "#dcdfe4"
+          }
+        },
+        {
+          "name": "Global & Static Variables",
+          "scope": [
+            "variable.global",
+            "variable.static",
+            "variable.instance",
+            "variable.environment"
+          ],
+          "settings": {
+            "foreground": "#ffd580"
+          }
+        },
+        {
+          "name": "Constants",
+          "scope": "constant",
+          "settings": {
+            "foreground": "#ffb86c"
+          }
+        },
+        {
+          "name": "Properties & Fields",
+          "scope": [
+            "property",
+            "field",
+            "attribute"
+          ],
+          "settings": {
+            "foreground": "#7aa2f7"
+          }
+        },
+        {
+          "name": "Types",
+          "scope": [
+            "type",
+            "type.primitive",
+            "type.builtin",
+            "type.custom",
+            "type.generic",
+            "type.alias"
+          ],
+          "settings": {
+            "foreground": "#9cdcfe"
+          }
+        },
+        {
+          "name": "Strings",
+          "scope": [
+            "string",
+            "string.raw",
+            "string.multiline",
+            "string.template"
+          ],
+          "settings": {
+            "foreground": "#98c379"
+          }
+        },
+        {
+          "name": "String Escape",
+          "scope": [
+            "string.escape",
+            "string.regex"
+          ],
+          "settings": {
+            "foreground": "#ff79c6"
+          }
+        },
+        {
+          "name": "Numbers",
+          "scope": [
+            "number",
+            "number.integer",
+            "number.float",
+            "number.hex",
+            "number.binary",
+            "number.octal",
+            "number.scientific"
+          ],
+          "settings": {
+            "foreground": "#ffb86c"
+          }
+        },
+        {
+          "name": "Boolean",
+          "scope": "boolean",
+          "settings": {
+            "foreground": "#50fa7b"
+          }
+        },
+        {
+          "name": "Null/None",
+          "scope": [
+            "null",
+            "none",
+            "undefined"
+          ],
+          "settings": {
+            "foreground": "#f1fa8c"
+          }
+        },
+        {
+          "name": "Operators",
+          "scope": [
+            "operator",
+            "operator.assignment",
+            "operator.arithmetic",
+            "operator.comparison",
+            "operator.logical",
+            "operator.bitwise",
+            "operator.range",
+            "operator.pipeline",
+            "operator.nullsafe"
+          ],
+          "settings": {
+            "foreground": "#e5c07b"
+          }
+        },
+        {
+          "name": "Punctuation",
+          "scope": [
+            "punctuation",
+            "punctuation.separator",
+            "punctuation.delimiter",
+            "punctuation.bracket",
+            "punctuation.parenthesis",
+            "punctuation.brace"
+          ],
+          "settings": {
+            "foreground": "#dcdfe4"
+          }
+        },
+        {
+          "name": "Comments",
+          "scope": [
+            "comment",
+            "comment.line",
+            "comment.block",
+            "comment.documentation"
+          ],
+          "settings": {
+            "foreground": "#5c6370",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "Comment - TODO",
+          "scope": "comment.todo",
+          "settings": {
+            "foreground": "#ffd580",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "name": "Comment - FIXME",
+          "scope": "comment.fixme",
+          "settings": {
+            "foreground": "#ff5555",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "name": "Comment - NOTE",
+          "scope": "comment.note",
+          "settings": {
+            "foreground": "#d19a66"
+          }
+        },
+        {
+          "name": "Comment - WARNING",
+          "scope": "comment.warning",
+          "settings": {
+            "foreground": "#ffcc00",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "name": "Annotations & Decorators",
+          "scope": [
+            "annotation",
+            "decorator",
+            "metadata"
+          ],
+          "settings": {
+            "foreground": "#ae81ff"
+          }
+        },
+        {
+          "name": "Identifiers & References",
+          "scope": [
+            "identifier",
+            "reference"
+          ],
+          "settings": {
+            "foreground": "#7aa2f7"
+          }
+        },
+        {
+          "name": "Symbols",
+          "scope": "symbol",
+          "settings": {
+            "foreground": "#ff79c6"
+          }
+        },
+        {
+          "name": "Labels",
+          "scope": "label",
+          "settings": {
+            "foreground": "#ffd580"
+          }
+        },
+        {
+          "name": "Imports & Exports",
+          "scope": [
+            "import",
+            "export",
+            "include",
+            "using"
+          ],
+          "settings": {
+            "foreground": "#56b6c2"
+          }
+        },
+        {
+          "name": "File Paths & URLs",
+          "scope": [
+            "file",
+            "folder",
+            "path",
+            "uri",
+            "url"
+          ],
+          "settings": {
+            "foreground": "#9cdcfe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pejic-light-001",
+      "name": "pejic-light",
+      "type": "light",
+      "version": "0.0.1",
+      "publisher": "pejicx",
+      "description": "A clean light theme for VS Code with balanced colors for daytime coding",
+      "repository": "https://github.com/pejicx/pejic-lang-thema",
+      "downloads": 456,
+      "rating": 4.6,
+      "installCount": 234,
+      "lastUpdated": "2026-01-15T14:32:00Z",
+      "colors": {
+        "editor.background": "#fafafa",
+        "editor.foreground": "#383a42",
+        "editorCursor.foreground": "#0184bc",
+        "editorLineNumber.foreground": "#a0a1a7",
+        "editor.selectionBackground": "#d0d0d0",
+        "editor.findMatchBackground": "#d0d0d0",
+        "editor.findMatchHighlightBackground": "#d8d8d8",
+        "editorWhitespace.foreground": "#b1bab9"
+      },
+      "tokenColors": [
+        {
+          "name": "Text",
+          "scope": "text",
+          "settings": {
+            "foreground": "#383a42"
+          }
+        },
+        {
+          "name": "Keywords",
+          "scope": "keyword",
+          "settings": {
+            "foreground": "#a626a4"
+          }
+        },
+        {
+          "name": "Functions",
+          "scope": "function",
+          "settings": {
+            "foreground": "#0184bc"
+          }
+        },
+        {
+          "name": "Strings",
+          "scope": "string",
+          "settings": {
+            "foreground": "#50a14f"
+          }
+        },
+        {
+          "name": "Numbers",
+          "scope": "number",
+          "settings": {
+            "foreground": "#986801"
+          }
+        },
+        {
+          "name": "Comments",
+          "scope": "comment",
+          "settings": {
+            "foreground": "#a0a1a7",
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalThemes": 2,
+    "publisher": "pejicx",
+    "publishedAt": "2025-12-01T10:00:00Z",
+    "versions": {
+      "0.0.1": {
+        "releaseDate": "2026-01-15T14:32:00Z",
+        "description": "Initial release",
+        "downloads": 1703,
+        "changelog": "Initial theme release with comprehensive token color scopes"
+      }
+    },
+    "compatibility": {
+      "minVSCodeVersion": "1.60.0",
+      "supportedLanguages": [
+        "javascript",
+        "typescript",
+        "python",
+        "java",
+        "go",
+        "rust",
+        "cpp",
+        "csharp",
+        "ruby",
+        "php",
+        "json",
+        "yaml",
+        "xml",
+        "markdown",
+        "html",
+        "css"
+      ]
+    }
+  },
+  "endpoints": {
+    "themesList": "/api/v1/themes",
+    "themeDetail": "/api/v1/themes/{themeId}",
+    "updateTheme": "/api/v1/themes/{themeId}",
+    "createTheme": "/api/v1/themes",
+    "deleteTheme": "/api/v1/themes/{themeId}",
+    "themesByPublisher": "/api/v1/publishers/{publisherId}/themes",
+    "themeSearch": "/api/v1/themes/search?q={query}",
+    "themeRatings": "/api/v1/themes/{themeId}/ratings",
+    "themeInstalls": "/api/v1/themes/{themeId}/installs"
+  },
+  "examples": {
+    "getTheme": {
+      "method": "GET",
+      "url": "/api/v1/themes/pejic-dark-001",
+      "response": {
+        "status": 200,
+        "body": {
+          "id": "pejic-dark-001",
+          "name": "pejic-dark",
+          "type": "dark",
+          "version": "0.0.1",
+          "publisher": "pejicx",
+          "colors": {},
+          "tokenColors": []
+        }
+      }
+    },
+    "listThemes": {
+      "method": "GET",
+      "url": "/api/v1/themes?limit=10&offset=0",
+      "response": {
+        "status": 200,
+        "body": {
+          "pagination": {
+            "total": 2,
+            "limit": 10,
+            "offset": 0,
+            "hasMore": false
+          },
+          "themes": []
+        }
+      }
+    },
+    "createTheme": {
+      "method": "POST",
+      "url": "/api/v1/themes",
+      "request": {
+        "name": "my-custom-theme",
+        "type": "dark",
+        "description": "A custom theme",
+        "colors": {},
+        "tokenColors": []
+      },
+      "response": {
+        "status": 201,
+        "body": {
+          "id": "my-custom-theme-001",
+          "name": "my-custom-theme",
+          "createdAt": "2026-01-20T10:00:00Z"
+        }
+      }
+    },
+    "updateTheme": {
+      "method": "PUT",
+      "url": "/api/v1/themes/pejic-dark-001",
+      "request": {
+        "name": "pejic-dark-updated",
+        "colors": {},
+        "tokenColors": []
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "id": "pejic-dark-001",
+          "message": "Theme updated successfully",
+          "updatedAt": "2026-01-20T10:00:00Z"
+        }
+      }
+    },
+    "deleteTheme": {
+      "method": "DELETE",
+      "url": "/api/v1/themes/pejic-dark-001",
+      "response": {
+        "status": 204,
+        "body": {}
+      }
+    }
+  }
+}
