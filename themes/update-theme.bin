@@ -25,7 +25,7 @@ const loadTheme = (): Any => {
 };
 
 // Find all .pej files in the project
-const findPejFiles = (dir = '.') => {
+const findPejFiles = (dir = '.'): Any => {
   let results = [];
   
   try {
