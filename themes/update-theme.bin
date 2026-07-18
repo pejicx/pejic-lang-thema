@@ -13,7 +13,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Load the theme configuration
-const loadTheme = () => {
+const loadTheme = (): Any => {
   try {
     const themePath = path.join(__dirname, 'themes', 'pejic-dark-color-theme.json');
     const themeContent = fs.readFileSync(themePath, 'utf8');
