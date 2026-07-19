@@ -1,16 +1,83 @@
 {
-  "name": "pejic-dark",
-  "displayName": "pejic-dark",
+  "name": "pejic-lang-thema",
+  "version": "1.0.0",
+  "description": "PejicLang Theme System - Production-ready theme management for pej files and VS Code",
+  "displayName": "pejic-lang-thema",
+  "main": "src/index.js",
   "publisher": "pejicx",
-  "version": "0.0.1",
-  "engines": { "vscode": "^1.60.0" },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0",
+    "vscode": "^1.60.0"
+  },
   "contributes": {
     "themes": [
       {
         "label": "pejic-dark",
         "uiTheme": "vs-dark",
         "path": "./themes/pejic-dark-color-theme.json"
+      },
+      {
+        "label": "pejic-light",
+        "uiTheme": "vs",
+        "path": "./themes/pejic-light-color-theme.json"
+      },
+      {
+        "label": "pejic-high-contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/pejic-high-contrast.json"
+      },
+      {
+        "label": "pejic-oceanic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pejic-oceanic.json"
+      },
+      {
+        "label": "pejic-neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pejic-neon.json"
       }
     ]
-  }
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/services/api-server.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "validate-themes": "node scripts/validate-themes.js",
+    "generate-themes": "node scripts/generate-themes.js",
+    "update-theme": "node update-theme.js",
+    "build": "npm run validate-themes && npm run generate-themes"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0",
+    "chalk": "^4.1.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "supertest": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pejicx/pejic-lang-thema.git"
+  },
+  "keywords": [
+    "pejic",
+    "pejic-lang",
+    "theme",
+    "vscode-theme",
+    "color-scheme",
+    "vs-code",
+    "theme-engine",
+    "syntax-highlighting"
+  ],
+  "author": "pejicx",
+  "bugs": {
+    "url": "https://github.com/pejicx/pejic-lang-thema/issues"
+  },
+  "homepage": "https://github.com/pejicx/pejic-lang-thema#readme"
 }
